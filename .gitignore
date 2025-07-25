@@ -1,0 +1,13 @@
+# Ignore Data directory
+Data/
+
+# Ignore ProcessedDataSets directory inside PreProcessing
+PreProcessing/ProcessedDataSets/
+
+Utilities/
+
+*.csv
+
+*.geojson
+
+.DS_Store
