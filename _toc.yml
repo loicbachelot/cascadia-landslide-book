@@ -1,0 +1,17 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+
+chapters:
+  - file: processing
+    sections:
+      - file: processing_notebooks/PreProcessing/01_cgs_download_to_geopandas
+      - file: processing_notebooks/PreProcessing/oregon_preprocessing
+      - file: processing_notebooks/PreProcessing/washington_preprocessing
+      - file: processing_notebooks/PreProcessing/california_preprocessing
+      - file: processing_notebooks/PreProcessing/canada_preprocessing
+      - file: processing_notebooks/PostProcessing/post_processing
+
+  - file: submission_instructions
