@@ -1,0 +1,57 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: Landslide data preparation book
+author: Loïc Bachelot
+logo: Crescent_logo.png
+
+execute:
+  execute_notebooks: off
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+bibtex_bibfiles:
+  - references.bib
+
+sphinx:
+  config:
+    bibtex_reference_style: author_year
+
+    # --- THIS BLOCK IS CRITICAL ---
+    exclude_patterns:
+      - ".venv/**"
+      - "**/.venv/**"
+      - "_build/**"
+      - "**/_build/**"
+      - ".ipynb_checkpoints/**"
+      - "**/.ipynb_checkpoints/**"
+      - ".github/**"
+      - ".idea/**"
+
+      # Large non-book folders
+      - "datasets_description/**"
+      - "static_tiling/**"
+
+      # Notebooks NOT intended for the book
+      - "processing_notebooks/ExploratoryDataAnalysis/**"
+      - "processing_notebooks/postGIS/**"
+      - "processing_notebooks/PostProcessing/geology/**"
+      - "processing_notebooks/PostProcessing/rainfall-data/**"
+
+    html_theme_options:
+      home_page_in_toc: true      # ✅ show "intro" (your root page) in the left nav
+      show_navbar_depth: 2        # ✅ keep levels expanded to depth 2
+      max_navbar_depth: 4         # ✅ allow items up to depth 4 in the left nav
+      collapse_navbar: false      # ✅ allow expanding/collapsing
+
+repository:
+  url: https://github.com/cascadiaquakes/cascadia-landslide-book
+  branch: main
+
+html:
+  baseurl: https://cascadiaquakes.github.io/cascadia-landslide-book
+  use_issues_button: true
+  use_repository_button: true
+  favicon: crescent_circle.png

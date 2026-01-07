@@ -1,8 +1,8 @@
 # Ignore Data directory
-Data/
+processing_notebooks/data/
 
 # Ignore ProcessedDataSets directory inside PreProcessing
-PreProcessing/ProcessedDataSets/
+processing_notebooks/PreProcessing/ProcessedDataSets/
 
 Utilities/
 
@@ -15,6 +15,6 @@ Utilities/
 .DS_Store
 
 # Ignore VectorTilesPipeline build and deployment files
-VectorTilesPipeline/build_tiles/
-VectorTilesPipeline/tileserver/
-VectorTilesPipeline/docker-compose.yml
+static_tiling/VectorTilesPipeline/build_tiles/
+static_tiling/VectorTilesPipeline/tileserver/
+static_tiling/VectorTilesPipeline/docker-compose.yml
