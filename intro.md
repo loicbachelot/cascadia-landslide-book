@@ -14,7 +14,7 @@ This effort is part of the broader mission of the **Cascadia Region Earthquake S
 
 Landslide and ground-failure inventories are foundational datasets for studies of seismic hazard, earthquake-induced ground failure, rainfall-triggered landslides, infrastructure risk, and landscape evolution. In Cascadia, large earthquakes, intense precipitation, and complex geology combine to produce widespread slope instability, yet landslide data are often compiled independently by different agencies, researchers, and projects.
 
-Over the past decade, advances in remote sensing, geospatial analysis, and data integration—including high-resolution lidar, satellite imagery, automated mapping approaches, and improved hazard modeling—have enabled the creation of increasingly detailed landslide inventories at local, regional, and national scales.
+Over the past decade, advances in remote sensing, geospatial analysis, and data integration, including high-resolution lidar, satellite imagery, automated mapping approaches, and improved hazard modeling have enabled the creation of increasingly detailed landslide inventories at local, regional, and national scales.
 
 
 The CRESCENT Ground Failure Repository aims to provide:
@@ -24,7 +24,7 @@ The CRESCENT Ground Failure Repository aims to provide:
 
 ## Scope
 
-The repository aims to be community based and is currently pre-populated with landslide inventories developed by state and provincial geological surveys (including CGS, DOGAMI, WADNR, and NRCan). These datasets are ingested, harmonized, and documented using a transparent preprocessing pipeline described in the {ref}preprocessing section of this book.
+The repository aims to be community based and is currently pre-populated with landslide inventories developed by state and provincial geological surveys (including CGS, DOGAMI, WADNR, and NRCan). These datasets are ingested, harmonized, and documented using a transparent preprocessing pipeline described in the {ref}`sec-preprocessing` section of this book.
 
 To be included in the repository, datasets must:
 - Be primarily located within the **CRESCENT geographic footprint** (Cascadia and surrounding regions), and
