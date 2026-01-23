@@ -1,4 +1,4 @@
-(dataset-processing)=
+(sec-preprocessing)=
 # Dataset Processing and Harmonization
 
 Landslide inventories included in the CRESCENT Ground Failure Repository originate from multiple state and provincial geological surveys and are produced using different mapping practices, classification schemes, spatial representations, and attribute conventions. As a result, raw inventories are not directly comparable across regions without careful preprocessing.

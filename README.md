@@ -18,7 +18,7 @@ The repository contains:
 
 ## Documentation
 
-The full, curated documentation—including step-by-step preprocessing examples and submission instructions—is available via the **Jupyter Book**:
+The full, curated documentation, including step-by-step preprocessing examples and submission instructions is available via the **Jupyter Book**:
 
 👉 https://cascadiaquakes.github.io/cascadia-landslide-book
 
